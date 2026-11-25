@@ -108,7 +108,8 @@ o	F
 5.	Verify that F = 1 whenever B and D are equal.
 6.	Verify that F = 0 whenever B and D are different.
 The waveform should agree with the truth table.
- 
+  <img width="758" height="484" alt="image" src="https://github.com/user-attachments/assets/86254bb8-98c8-45c3-bab1-aaa95e892cef" />
+
 ### Expected Result
 The Boolean function
 F(A,B,C,D)=Σm(0,2,5,7,8,10,13,15), which simplifies to F=B'D'+BD.
@@ -117,7 +118,7 @@ and successfully implemented using Verilog HDL.
 
 ## OUTPUT
 
-
+<img width="1853" height="987" alt="exp1" src="https://github.com/user-attachments/assets/b16e1fa2-442b-4e0b-8699-a2417fc11ec5" />
 
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis.
 7. Viva-Voce Questions
@@ -136,6 +137,6 @@ The design was compiled and simulated using Synopsys VCS, and the functionality 
 13.	What is the purpose of $dumpfile?
 14.	What is the purpose of $dumpvars?
 
-Result
+## Result
 Thus, the Boolean function was minimized, implemented using Verilog HDL, successfully simulated using Synopsys VCS, and verified using Synopsys DVE.
 
